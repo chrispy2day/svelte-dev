@@ -9,12 +9,19 @@
       "extensions": [
         "svelte.svelte-vscode",
         "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "Anthropic.claude-code"
       ],
       "settings": {
         "editor.formatOnSave": true,
         "[svelte]": {
           "editor.defaultFormatter": "svelte.svelte-vscode"
+        },
+        "claude-code.mcpServers": {
+          "context7": {
+            "command": "npx",
+            "args": ["-y", "@upstash/context7-mcp"]
+          }
         }
       }
     }
