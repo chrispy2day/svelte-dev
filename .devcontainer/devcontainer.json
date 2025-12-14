@@ -1,0 +1,28 @@
+{
+  "name": "Svelte Development Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "svelte.svelte-vscode",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "[svelte]": {
+          "editor.defaultFormatter": "svelte.svelte-vscode"
+        }
+      }
+    }
+  },
+
+  "forwardPorts": [5173],
+
+  "postCreateCommand": "npm install -g npm@latest",
+
+  "remoteUser": "node"
+}
