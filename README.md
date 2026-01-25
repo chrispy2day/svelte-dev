@@ -1,6 +1,6 @@
 # 🚀 Svelte DevContainer Template for DevPods
 
-A GitHub template repository providing a pre-configured development container for building Svelte applications using DevPods. This template gives you a complete, production-ready development environment with zero configuration. 🎉
+A GitHub template repository providing a pre-configured development container for building Svelte applications using DevPods. This template gives you a complete, developer-ready environment with zero configuration. 🎉
 
 ## 🤔 Why Use This Template?
 
