@@ -97,19 +97,20 @@ After creating your repository from this template:
 
 Once inside the devcontainer, you can create a new Svelte app using one of these methods:
 
-#### Option 1: Using Vite (Recommended) ⚡
+
+#### Option 1: Using SvelteKit (Recommended) 🏗️
 
 ```bash
-npm create vite@latest my-app -- --template svelte
+npm create svelte@latest my-app
 cd my-app
 npm install
 npm run dev
 ```
 
-#### Option 2: Using SvelteKit 🏗️
+#### Option 2: Using Vite ⚡
 
 ```bash
-npm create svelte@latest my-app
+npm create vite@latest my-app -- --template svelte
 cd my-app
 npm install
 npm run dev
