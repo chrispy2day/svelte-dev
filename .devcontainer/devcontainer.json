@@ -44,6 +44,11 @@
 
   "forwardPorts": [5173],
 
+  "mounts": [
+    "source=${localEnv:HOME}/.ssh,target=/home/node/.ssh,type=bind,consistency=cached",
+    "source=${localEnv:HOME}/.claude,target=/home/node/.claude,type=bind,consistency=cached"
+  ],
+
   "postCreateCommand": "git config --global init.defaultBranch main",
 
   "remoteUser": "node"
