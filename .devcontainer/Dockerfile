@@ -1,6 +1,6 @@
-FROM node:22-bookworm
+FROM node:24-bookworm
 
-LABEL org.opencontainers.image.description="Svelte development container with Node.js 22"
+LABEL org.opencontainers.image.description="Svelte development container with Node.js 24"
 LABEL org.opencontainers.image.source="https://github.com/chrispy2day/svelte-dev"
 
 # Install additional dependencies for Svelte development

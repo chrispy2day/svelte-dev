@@ -33,7 +33,16 @@ A GitHub template repository providing a pre-configured development container fo
 
 ### Option 2: Use with DevPods Directly 🐳
 
-If you have DevPods installed:
+If you have DevPods installed, you can start from a local directory or GitHub URL:
+
+**From local directory:**
+
+```bash
+cd /path/to/your/project
+devpod up .
+```
+
+**From GitHub URL:**
 
 ```bash
 devpod up https://github.com/YOUR-USERNAME/YOUR-REPO-NAME
@@ -53,8 +62,8 @@ git init
 
 ## 📦 What's Included
 
-- **🐳 Base Image**: `node:22-bookworm` (Official Node.js Docker image)
-- **⚡ Node.js**: Version 22.x LTS
+- **🐳 Base Image**: `node:24-bookworm` (Official Node.js Docker image)
+- **⚡ Node.js**: Version 24.x LTS
 - **📦 Package Manager**: npm (auto-updated on container creation)
 - **🎯 Degit**: Pre-installed for scaffolding Svelte projects
 
