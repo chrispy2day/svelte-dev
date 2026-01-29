@@ -14,9 +14,24 @@
       ],
       "settings": {
         "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit"
+        },
         "[svelte]": {
           "editor.defaultFormatter": "svelte.svelte-vscode"
         },
+        "[javascript]": {
+          "editor.defaultFormatter": "vscode.typescript-language-features"
+        },
+        "[typescript]": {
+          "editor.defaultFormatter": "vscode.typescript-language-features"
+        },
+        "[json]": {
+          "editor.defaultFormatter": "vscode.json-language-features"
+        },
+        "files.eol": "\n",
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
         "claude-code.mcpServers": {
           "context7": {
             "command": "npx",
@@ -29,7 +44,9 @@
 
   "forwardPorts": [5173],
 
-  "postCreateCommand": "npm install -g npm@latest",
+  "onCreateCommand": "npm install -g npm@latest",
+  "updateContentCommand": "npm cache clean --force",
+  "postStartCommand": "git config --global init.defaultBranch main",
 
   "remoteUser": "node"
 }

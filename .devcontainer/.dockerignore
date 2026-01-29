@@ -1,0 +1,42 @@
+# Git files
+.git
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Dependencies
+node_modules
+jspm_packages
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Cache directories
+.npm
+.cache
+.parcel-cache
+
+# Build outputs
+dist
+build
+.next
+.nuxt
+.svelte-kit
+
+# IDE settings
+.vscode
+.idea
+
+# OS files
+.DS_Store
+Thumbs.db

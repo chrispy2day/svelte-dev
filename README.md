@@ -53,8 +53,8 @@ git init
 
 ## 📦 What's Included
 
-- **🐳 Base Image**: `ghcr.io/devcontainers/templates/javascript-node:4.0.2`
-- **⚡ Node.js**: Latest LTS version
+- **🐳 Base Image**: `node:22-bookworm` (Official Node.js Docker image)
+- **⚡ Node.js**: Version 22.x LTS
 - **📦 Package Manager**: npm (auto-updated on container creation)
 - **🎯 Degit**: Pre-installed for scaffolding Svelte projects
 
