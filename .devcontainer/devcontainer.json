@@ -44,9 +44,7 @@
 
   "forwardPorts": [5173],
 
-  "onCreateCommand": "npm install -g npm@latest",
-  "updateContentCommand": "npm cache clean --force",
-  "postStartCommand": "git config --global init.defaultBranch main",
+  "postCreateCommand": "git config --global init.defaultBranch main",
 
   "remoteUser": "node"
 }
